@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buy{
+            color:wheat;
+            background-color:green;
+            border: solid 3px black;
+        }
+        .add{
+            color: wheat;
+            background-color: red;
+            border: black solid 3px;
+        }
+        .cardbody{
+            border: black solid 3px;
+            width: 350px;
+           text-align: center;
+           flex-wrap: wrap;
+            
+            
+            margin: 40px ;
+            border-radius: 15px;
+
+        }
+        .cord{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .id{
+            font-size: 20px;
+        }
+        img{
+            padding: 5px;
+            border-radius: 5px;
+        }
+        s{
+            color: red;
+        }
+        @media only screen and (min-width:320px) and (max-width:480px){
+            .cord{
+                display:flex;
+                flex-direction: column;
+
+            }
+            .cardbody{
+                width:95%;
+                font-size: 20px;
+                background-color: cadetblue;
+            }
+            button{
+                font-size: 10px;
+            }
+            
+            
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="cord">
+        
+        <div class="cardbody">
+            <img src="iphone.jpg" alt="" height="400px" width="300px"><br>
+            <u class="id">product Descripton</u><br>
+            <h3>Iphone13 mobile</h3>
+            M.R.P :<s>80,0000</s>
+            <p>offerprice : 60,000</p>
+            <button class="buy"> Buynow</button>
+            <button class="add">AddTocart</button>
+
+            
+
+        </div>
+        <div class="cardbody">
+         <img src="oneplus.jpg" alt="" height="400px" width="300px"><br>
+         
+         <u class="id">product Descripton</u><br>
+            <h3>oneplus9 mobile</h3>
+            M.R.P :<s>40,0000</s>
+            <p>offerprice : 30,000</p>
+            <button class="buy"> Buynow</button>
+            <button class="add">AddTocart</button>
+
+        </div>
+        <div class="cardbody">
+            <img src="realme.png" alt="" height="400px" width="300px"><br>
+            <u class="id">product Descripton</u><br>
+            <h3>realme mobile</h3>
+            M.R.P :<s>20,0000</s>
+            <p>offerprice : 18,000</p>
+            <button class="buy"> Buynow</button>
+            <button class="add">AddTocart</button>
+
+        </div>
+        <div class="cardbody">
+            <img src="redmi.jpg" alt="" height="400px" width="300px"><br>
+            <u class="id">product Descripton</u><br>
+            <h3>redmi mobile</h3>
+            M.R.P :<s>16,0000</s>
+            <p>offerprice : 15,000</p>
+            <button class="buy"> Buynow</button>
+            <button class="add">AddTocart</button>
+
+
+        </div>
+        <div class="cardbody">
+            <img src="samseng.webp" alt="" height="400px" width="300px"><br>
+            <u class="id">product Descripton</u><br>
+            <h3>samseng mobile</h3>
+            M.R.P :<s>22,000</s>
+            <p>offerprice : 20,000</p>
+            <button class="buy"> Buynow</button>
+            <button class="add">AddTocart</button>
+
+
+        </div>
+    </div>
+</body>
+</html>
